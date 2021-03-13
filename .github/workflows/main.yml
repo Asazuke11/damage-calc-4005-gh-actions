@@ -1,4 +1,4 @@
-name; Damage Calucation Test
+name: Damage Calucation Test
 
 on:
   push:
