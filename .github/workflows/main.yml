@@ -2,12 +2,12 @@ name: Damage Calucation Test
 
 on:
   push:
-    branches:[ master ]
+    branches: [ master ]
 
 jobs:
   build:
   
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     
     steps:
     - uses: actions/checkout@v2
@@ -17,4 +17,4 @@ jobs:
         node-version: '10.14.2'
         
     - run: yarn install
-    - run yarn test
+    - run: yarn test
